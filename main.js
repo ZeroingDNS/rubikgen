@@ -2,7 +2,7 @@ let cubetypeValue = document.querySelector(".cubetype"),cubetypeImage = document
 let link, linkblob,mezcla
 let getLink = ()=>{
     let cubeType = cubetypeValue.value,cubeImg = cubetypeImage.value,size = inputSize.value,stage = selectStage.value,mezcla = scramble.value,r = rotacion.value,c = cosa.value
-    link = `http://cube.rider.biz/visualcube.php?fmt=${cubeImg}&bg=t&pzl=${cubeType}&size=${size}&wiew=&stage=${stage}&r=${r}&alg=${mezcla}&${c}`
+    link = `http://cube.rider.biz/visualcube.php?fmt=${cubeImg}&bg=t&pzl=${cubeType}&size=${size}&stage=${stage}&r=${r}&alg=${mezcla}&${c}`
     linkblob =`http://cube.rider.biz/visualcube.${cubeImg}?fmt=${cubeImg}&bg=t&pzl=${cubeType}&size=${size}&wiew=&stage=${stage}&r=${r}&alg=${mezcla}&${c}`
 }
 let reload = ()=>{
@@ -18,9 +18,9 @@ parametros.addEventListener("keyup",(e)=>{
 
 })
 
-TTk.AlgorithmPuzzle(3)
-.alg(scramble.value)
-('#ap1');
+// TTk.AlgorithmPuzzle(3)
+// .alg(scramble.value)
+// ('#ap1');
 
 
 
