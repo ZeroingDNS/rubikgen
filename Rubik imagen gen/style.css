@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.referencias{
+    text-align: center;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.ifr{
+    width: 100%;
+    height: 950px;
+    border: 8px solid black;
+    border-radius: 8px;
+}
+.iframeContainer{
+    display: flex;
+    width: 50%;
+}
+.parametros{
+    width: 50%;
+    align-content: center;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.par{
+    margin: 0 30px 0 30px;
+}
+
+.parametros p{
+    font-size: 20px;
+}
+
+input, select, option{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+}
+.rotacion{
+    width: 150px;
+}
+.divInputScramble, .cualquierCosa{
+    width: 100%;
+}
+.scramble, .cosa{
+   width: 90%;
+   height: 80px;
+   resize: none;
+}
+.scramble{
+    font-size: 20px;
+    text-align: center;
+    height: 90px;
+    outline:  none;
+}
+.scrambleText{
+    align-self: center;
+}
+body > img{
+    border: 15px;
+}
